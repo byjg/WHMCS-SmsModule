@@ -16,7 +16,7 @@ function aktuel_sms_config() {
         "description" => "WHMCS Sms Addon. You can see details from: https://github.com/AktuelSistem/WHMCS-SmsModule",
         "version" => "1.1.6",
         "author" => "Aktüel Sistem ve Bilgi Teknolojileri",
-		"language" => "turkish",
+		"language" => "english",
     );
     return $configarray;
 }
