@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, hizmetiniz duraklatildi. ({domain})',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, your service has suspended. ({domain})',
     'variables' => '{firstname},{lastname},{domain}'
 );
 if(!function_exists('AfterModuleSuspend')){

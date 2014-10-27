@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, {domain} icin hosting hizmeti aktif hale getirilmistir. KullaniciAdi: {username} Sifre: {password}',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, {domain} has been put on the hosting services activated. Username: {username} Password: {password}',
     'variables' => '{firstname}, {lastname}, {domain}, {username}, {password}'
 );
 if(!function_exists('AfterModuleCreate_Hosting')){

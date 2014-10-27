@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, alan adiniz basariyla kayit edildi. ({domain})',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, Your name field records were successfully. ({domain})',
     'variables' => '{firstname},{lastname},{domain}'
 );
 if(!function_exists('AfterRegistrarRegistration')){

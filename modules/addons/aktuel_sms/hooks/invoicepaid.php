@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, {duedate} son odeme tarihli faturaniz odenmistir. Odeme icin tesekkur ederiz.',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, {duedate} was paid. Thank you for your payment',
     'variables' => '{firstname}, {lastname}, {duedate}'
 );
 if(!function_exists('InvoicePaid')){

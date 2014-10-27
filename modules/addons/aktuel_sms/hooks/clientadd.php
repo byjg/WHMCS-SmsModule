@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, AktuelHost a kayit oldugunuz icin tesekkur ederiz. Email: {email} Sifre: {password}',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, Thank you for login. Email: {email} Password: {password}',
     'variables' => '{firstname},{lastname},{email},{password}'
 );
 if(!function_exists('ClientAdd')){

@@ -4,7 +4,7 @@ $hook = array(
     'function' => 'TicketOpen_admin',
     'type' => 'admin',
     'extra' => '',
-    'defaultmessage' => 'Yeni bir ticket acildi. ({subject})',
+    'defaultmessage' => 'A new ticket was opened. ({subject})',
     'variables' => '{subject}'
 );
 

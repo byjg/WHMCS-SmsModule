@@ -9,7 +9,7 @@ $hook = array(
     'type' => 'client',
     'extra' => '',
     'variables' => '{firstname},{lastname}',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, sifreniz degistirildi. Eger bu islemi siz yapmadiysaniz lutfen bizimle iletisime gecin.',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, Your password has been changed. If you do not change it please contact us.',
 );
 
 if(!function_exists('ClientChangePassword')){

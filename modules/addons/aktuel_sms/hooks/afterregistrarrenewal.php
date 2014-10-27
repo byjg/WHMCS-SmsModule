@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, alan adiniz basariyla yenilendi. ({domain})',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, Your domain name has been renewed successfully. ({domain})',
     'variables' => '{firstname},{lastname},{domain}'
 );
 if(!function_exists('AfterRegistrarRenewal')){

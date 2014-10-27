@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, alan adiniz kayit edilemedi. En kisa surede lutfen bizimle iletisime gecin ({domain})',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, Your name space could not be recorded. Contact us about the domain ({domain})',
     'variables' => '{firstname},{lastname},{domain}'
 );
 if(!function_exists('AfterRegistrarRegistrationFailed')){

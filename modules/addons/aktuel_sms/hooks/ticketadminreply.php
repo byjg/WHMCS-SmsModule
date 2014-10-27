@@ -9,7 +9,7 @@ $hook = array(
     'type' => 'client',
     'extra' => '',
     'variables' => '{firstname},{lastname},{ticketsubject}',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, ({ticketsubject}) konu baslikli destek talebiniz yanitlandi.',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, ({ticketsubject}) Your request for support issues was responded.',
 );
 
 if(!function_exists('TicketAdminReply')){

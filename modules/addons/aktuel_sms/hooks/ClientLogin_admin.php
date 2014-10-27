@@ -4,7 +4,7 @@ $hook = array(
     'function' => 'ClientLogin_admin',
     'type' => 'admin',
     'extra' => '',
-    'defaultmessage' => '({firstname} {lastname}), Siteye giris yapti',
+    'defaultmessage' => '({firstname} {lastname}), Made the entrance to the site',
     'variables' => '{firstname},{lastname}'
 );
 

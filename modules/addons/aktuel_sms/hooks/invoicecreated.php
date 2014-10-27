@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, {duedate} son odeme tarihli {total} TL tutarinda bir fatura olusturulmustur. Fatura Numarasi: {invoiceid}. Detayli bilgi icin sitemizi ziyaret edin.',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, {duedate} last payment date $ {total} amount has been formed. Invoice Number: {invoiceid}. For detailed information, visit our website.',
     'variables' => '{firstname}, {lastname}, {duedate}, {total}, {invoiceid}'
 );
 if(!function_exists('InvoiceCreated')){

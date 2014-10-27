@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, {duedate} son odeme tarihli bir faturaniz bulunmaktadir. Detayli bilgi icin sitemizi ziyaret edin. www.aktuelhost.com',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, {duedate} will expire soon. Detailed informations visit our web site at www.your-site.com',
     'variables' => '{firstname}, {lastname}, {duedate}'
 );
 

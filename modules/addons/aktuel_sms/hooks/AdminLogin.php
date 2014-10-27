@@ -4,7 +4,7 @@ $hook = array(
     'function' => 'AdminLogin_admin',
     'type' => 'admin',
     'extra' => '',
-    'defaultmessage' => '{username}, Yonetici paneline giris yapti.',
+    'defaultmessage' => '{username}, Entered through the admin panel.',
     'variables' => '{username}'
 );
 if(!function_exists('AdminLogin_admin')){

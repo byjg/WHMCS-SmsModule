@@ -4,7 +4,7 @@ $hook = array(
     'function' => 'AfterRegistrarRegistrationFailed_admin',
     'type' => 'admin',
     'extra' => '',
-    'defaultmessage' => 'Domain kayit edilirken hata olustu. {domain}',
+    'defaultmessage' => 'Domain registration error occurred. {domain}',
     'variables' => '{domain}'
 );
 if(!function_exists('AfterRegistrarRegistrationFailed_admin')){

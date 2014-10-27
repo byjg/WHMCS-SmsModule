@@ -4,7 +4,7 @@ $hook = array(
     'function' => 'TicketUserReply_admin',
     'type' => 'admin',
     'extra' => '',
-    'defaultmessage' => 'Bir ticket musteri tarafindan guncellendi. ({subject})',
+    'defaultmessage' => 'A ticket was updated by the customer. ({subject})',
     'variables' => '{subject}'
 );
 

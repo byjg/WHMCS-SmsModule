@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, {orderid} numarali siparisiniz onaylanmistir. ',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, {orderid} Your order has been approved numbered. ',
     'variables' => '{firstname},{lastname},{orderid}'
 );
 if(!function_exists('AcceptOrder_SMS')){

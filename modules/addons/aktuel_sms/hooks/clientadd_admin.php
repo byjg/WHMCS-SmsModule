@@ -4,7 +4,7 @@ $hook = array(
     'function' => 'ClientAdd_admin',
     'type' => 'admin',
     'extra' => '',
-    'defaultmessage' => 'Sitenize yeni musteri kayit oldu.',
+    'defaultmessage' => 'Registered at your site a new customer.',
     'variables' => ''
 );
 if(!function_exists('ClientAdd_admin')){

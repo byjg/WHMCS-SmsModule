@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '15',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, {domain} alanadiniz {expirydate}({x} gun sonra) tarihinde sona erecektir. Yenilemek icin sitemizi ziyaret edin. www.aktuelhost.com',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, {domain} your domain {expirydate}({x} days after) will end. To renew visit our site. www.your-site-here.com',
     'variables' => '{firstname}, {lastname}, {domain},{expirydate},{x}'
 );
 if(!function_exists('DomainRenewalNotice')){

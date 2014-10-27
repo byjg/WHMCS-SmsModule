@@ -4,7 +4,7 @@ $hook = array(
     'function' => 'AfterRegistrarRegistration_admin',
     'type' => 'admin',
     'extra' => '',
-    'defaultmessage' => 'Yeni domain kayit edildi. {domain}',
+    'defaultmessage' => 'New domains has been added. {domain}',
     'variables' => '{domain}'
 );
 if(!function_exists('AfterRegistrarRegistration_admin')){

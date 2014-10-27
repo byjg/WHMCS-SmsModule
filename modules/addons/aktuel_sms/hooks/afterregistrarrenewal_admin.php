@@ -4,7 +4,7 @@ $hook = array(
     'function' => 'AfterRegistrarRenewal_admin',
     'type' => 'admin',
     'extra' => '',
-    'defaultmessage' => 'Domain yenilendi. {domain}',
+    'defaultmessage' => 'Domain renewed. {domain}',
     'variables' => '{domain}'
 );
 if(!function_exists('AfterRegistrarRenewal_admin')){

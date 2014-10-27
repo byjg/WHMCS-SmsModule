@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, {duedate} son odeme tarihli gecikmis bir faturaniz bulunmaktadir. Detayli bilgi icin sitemizi ziyaret edin.',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, {duedate} is overdue. Second warning. Detailed informations visit our web site at www.your-site.com',
     'variables' => '{firstname}, {lastname}, {duedate}'
 );
 

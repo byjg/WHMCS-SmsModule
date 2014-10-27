@@ -4,7 +4,7 @@ $hook = array(
     'function' => 'AfterRegistrarRenewalFailed_admin',
     'type' => 'admin',
     'extra' => '',
-    'defaultmessage' => 'Domain yenilenirken hata olustu. {domain}',
+    'defaultmessage' => 'Domain error occurred while updating. {domain}',
     'variables' => '{domain}'
 );
 if(!function_exists('AfterRegistrarRenewalFailed_admin')){

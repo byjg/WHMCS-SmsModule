@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-    'defaultmessage' => 'Sayin {firstname} {lastname}, hizmetiniz tekrar aktiflestirildi. ({domain})',
+    'defaultmessage' => 'Sayin {firstname} {lastname}, Your service was activated again. ({domain})',
     'variables' => '{firstname},{lastname},{domain}'
 );
 if(!function_exists('AfterModuleUnsuspend')){

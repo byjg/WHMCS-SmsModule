@@ -8,7 +8,7 @@ $hook = array(
     ),
     'type' => 'client',
     'extra' => '',
-	'defaultmessage' => 'Sayin {firstname} {lastname}, ({ticketno}) numarali ticket kapatilmistir.',
+	'defaultmessage' => 'Sayin {firstname} {lastname}, ({ticketno}) your ticket was closed.',
     'variables' => '{firstname}, {lastname}, {ticketno}',
 );
 
