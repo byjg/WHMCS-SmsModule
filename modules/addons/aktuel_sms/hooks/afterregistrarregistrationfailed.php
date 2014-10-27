@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'AfterRegistrarRegistrationFailed',
     'description' => array(
         'turkish' => 'Domain kayıt edilirken hata oluşursa mesaj gönderilir',
-        'english' => 'After domain registration failed'
+        'english' => 'After domain registration failed',
+        'portuguese' => 'Após o registro de domínio ter falhado.'
     ),
     'type' => 'client',
     'extra' => '',

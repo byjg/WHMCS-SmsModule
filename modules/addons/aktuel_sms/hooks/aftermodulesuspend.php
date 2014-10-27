@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'AfterModuleSuspend',
     'description' => array(
         'turkish' => 'Bir hizmet duraklatıldığında mesaj gönderir',
-        'english' => 'After module suspended'
+        'english' => 'After module suspended',
+        'portuguese' => 'Após ter sido suspenso'
     ),
     'type' => 'client',
     'extra' => '',

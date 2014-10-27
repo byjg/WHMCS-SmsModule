@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'DomainRenewalNotice',
     'description' => array(
         'turkish' => 'Domainin yenilenmesine {x} gün kala mesaj gönderir',
-        'english' => 'Donmain renewal notice before {x} days ago'
+        'english' => 'Donmain renewal notice before {x} days ago',
+        'portuguese' => 'Aviso de renovação de domínio antes de {x} dias'
     ),
     'type' => 'client',
     'extra' => '15',

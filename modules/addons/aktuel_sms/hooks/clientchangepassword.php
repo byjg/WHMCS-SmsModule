@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'ClientChangePassword',
     'description' => array(
         'turkish' => 'Müşteri şifresini değiştirdiğinde mesaj gönderir',
-        'english' => 'After client change password'
+        'english' => 'After client change password',
+        'portuguese' => 'Após o cliente mudar a senha'
     ),
     'type' => 'client',
     'extra' => '',

@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'AfterRegistrarRegistration',
     'description' => array(
         'turkish' => 'Bir domain kayıt edildikten sonra mesaj gönderir',
-        'english' => 'After domain registration'
+        'english' => 'After domain registration',
+        'portuguese' => 'Após o registro do domínio'
     ),
     'type' => 'client',
     'extra' => '',

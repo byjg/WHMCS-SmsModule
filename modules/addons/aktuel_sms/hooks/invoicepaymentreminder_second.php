@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'InvoicePaymentReminder_secondoverdue',
     'description' => array(
         'turkish' => 'Ödenmemiş faturanın ikinci zaman aşımında mesaj gönderir',
-        'english' => 'Invoice payment second for first overdue'
+        'english' => 'Invoice payment second for first overdue',
+        'portuguese' => 'Segundo aviso de fatura atrasada'
     ),
     'type' => 'client',
     'extra' => '',

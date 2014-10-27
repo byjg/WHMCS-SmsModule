@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'InvoiceCreated',
     'description' => array(
         'turkish' => 'Yeni bir fatura oluşturulduğunda mesaj gönderir',
-        'english' => 'After invoice created'
+        'english' => 'After invoice created',
+        'portuguese' => 'Após a fatura ter sido criada'
     ),
     'type' => 'client',
     'extra' => '',

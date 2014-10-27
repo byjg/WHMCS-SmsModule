@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'TicketAdminReply',
     'description' => array(
         'turkish' => 'Bir ticket güncellendiğinde mesaj gönderir',
-        'english' => 'After ticket replied by admin'
+        'english' => 'After ticket replied by admin',
+        'portuguese' => 'Após admin ter respondido o ticket'
     ),
     'type' => 'client',
     'extra' => '',

@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'AcceptOrder_SMS',
     'description' => array(
         'turkish' => 'Sipariş onaylandığında mesaj gönderir',
-        'english' => 'After order accepted'
+        'english' => 'After order accepted',
+        'portuguese' => 'Após a ordem ter sido aceita.'
     ),
     'type' => 'client',
     'extra' => '',

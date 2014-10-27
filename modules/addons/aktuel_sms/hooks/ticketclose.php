@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'TicketClose',
     'description' => array(
         'turkish' => 'Ticket kapatıldığında mesaj gönderir.',
-        'english' => 'When the ticket is closed it sends a message.'
+        'english' => 'When the ticket is closed it sends a message.',
+        'portuguese' => 'Após o ticket ter sido fechado'
     ),
     'type' => 'client',
     'extra' => '',

@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'AfterModuleChangePassword',
     'description' => array(
         'turkish' => 'Hosting hesabı şifresi değiştiğinde gönderir',
-        'english' => 'After module change password'
+        'english' => 'After module change password',
+        'portuguese' => 'Após mudar senha'
     ),
     'type' => 'client',
     'extra' => '',

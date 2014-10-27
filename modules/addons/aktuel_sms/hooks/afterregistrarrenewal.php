@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'AfterRegistrarRenewal',
     'description' => array(
         'turkish' => 'Domain yenilendikten sonra mesaj gönderir',
-        'english' => 'After domain renewal'
+        'english' => 'After domain renewal',
+        'portuguese' => 'Após a renovação de domínio'
     ),
     'type' => 'client',
     'extra' => '',

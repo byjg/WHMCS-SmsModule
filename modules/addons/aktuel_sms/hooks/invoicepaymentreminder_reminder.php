@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'InvoicePaymentReminder_Reminder',
     'description' => array(
         'turkish' => 'Ödenmemiş fatura için bilgi mesajı gönderir',
-        'english' => 'Invoice payment reminder'
+        'english' => 'Invoice payment reminder',
+        'portuguese' => 'Aviso de pagamento'
     ),
     'type' => 'client',
     'extra' => '',

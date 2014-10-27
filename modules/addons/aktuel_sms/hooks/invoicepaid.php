@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'InvoicePaid',
     'description' => array(
         'turkish' => 'Faturanız ödendiğinde mesaj gönderir',
-        'english' => 'Whenyou have paidthe billsends a message.'
+        'english' => 'After the invoice has paid',
+        'portuguese' => 'Após a fatura paga'
     ),
     'type' => 'client',
     'extra' => '',

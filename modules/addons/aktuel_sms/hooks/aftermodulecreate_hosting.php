@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'AfterModuleCreate_Hosting',
     'description' => array(
         'turkish' => 'Hosting hesabı oluşturulduktan sonra mesaj gönderir',
-        'english' => 'After hosting create'
+        'english' => 'After hosting create',
+        'portuguese' => 'Após criar hosting'
     ),
     'type' => 'client',
     'extra' => '',

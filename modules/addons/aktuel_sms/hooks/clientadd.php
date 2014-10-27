@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'ClientAdd',
     'description' => array(
         'turkish' => 'Müşteri kayıt olduktan sonra mesaj gönderir',
-        'english' => 'After client register'
+        'english' => 'After client register',
+        'portuguese' => 'Após o registro de domínio'
     ),
     'type' => 'client',
     'extra' => '',

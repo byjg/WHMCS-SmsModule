@@ -4,7 +4,8 @@ $hook = array(
     'function' => 'AfterModuleUnsuspend',
     'description' => array(
         'turkish' => 'Bir hizmet tekrar başlatıldığında mesaj gönderir',
-        'english' => 'After module unsuspend'
+        'english' => 'After module unsuspend',
+        'portuguese' => 'Após ter sido restaurado'
     ),
     'type' => 'client',
     'extra' => '',
