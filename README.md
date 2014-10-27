@@ -31,6 +31,7 @@ Desteklenen SMS Firmaları
 * msg91.com (Hindistan)
 * bytehand.com (Global, Russian)
 * 1sms.com.tr (Türkiye)
+* ByJG (Brazil)
 
 
 Desteklenen Hook'lar
@@ -108,6 +109,7 @@ Supported SMS Gateways
 * msg91.com (India)
 * bytehand.com (Global, Russian)
 * 1sms.com.tr (Türkiye)
+* ByJG (Brazil)
 
 Supported Hooks
 ---------------
