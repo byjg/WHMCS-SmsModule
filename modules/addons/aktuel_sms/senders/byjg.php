@@ -14,7 +14,8 @@ class byjg extends AktuelSms {
         }
         $params = $this->getParams();
 
-		$number = $this->gsmnumber;
+		$number = preg_replace('/[^0-9]/', '', $this->gsmnumber);
+		$number = preg_replace('/^55/', '', $number);
 		$ddd = substr($number, 0, 2);
 		$celular = substr($number, 2);
 
